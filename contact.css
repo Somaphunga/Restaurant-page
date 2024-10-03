@@ -1,0 +1,77 @@
+body{
+  background-image: url("food images/kelsey-contact.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.logo{
+  border-radius: 10px;
+}
+
+.navbar{
+  text-align: center;
+  align-items: center;
+  color: black;
+}
+
+.navbarlist{
+  color: white;
+  font-size: 30px;
+  word-spacing: 25px;
+  
+}
+
+.navbarlist a:link,a:visited{
+  color: white;
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.contact-info{
+  text-align: center;
+  color: rgb(243, 241, 238);
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  word-spacing: 10px;
+  font-size: 23px;
+
+}
+
+header{
+  text-align: center;
+  color: rgb(230, 226, 220);
+}
+
+.social-media{
+  font-size: 23px;
+  text-align: center;
+  color: rgb(230, 226, 220);
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  word-spacing: 10px;
+  text-decoration: none;
+}
+
+.contact-info a:link{
+  text-decoration: none;
+  color: wheat;
+}
+.social-media a:link{
+  text-decoration: none;
+  color: wheat;
+}
+.location a:link{
+  text-decoration: none;
+  color: wheat;
+}
+.location{
+  width: 500px;
+  height: 250px;
+  object-fit: cover;
+  align-items: center;
+}
+
+

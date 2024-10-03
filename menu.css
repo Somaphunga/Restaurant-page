@@ -1,0 +1,52 @@
+body{
+  background-image: url("food images/dan-people\ eating.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+.navbar{
+  text-align: center;
+  align-items: center;
+  color: black;
+}
+
+.navbarlist{
+  color: white;
+  font-size: 15px;
+  word-spacing: 10px;
+  
+}
+
+.navbarlist a:link,a:visited{
+  color: white;
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.menutable{
+  width: 700px;
+margin: auto;
+ background-color: rgb(136, 130, 130);
+  color: white;
+  font-size: 12px;
+}
+
+.maintable{
+  border: 1px solid black;
+ border-color: rgb(10, 10, 10);
+ padding-top: 10px;
+ 
+  align-items: center;
+  text-align: center;
+}
+
+.fullmenu{
+  color: green;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: absolute;
+  left: auto;
+  right: auto;
+}

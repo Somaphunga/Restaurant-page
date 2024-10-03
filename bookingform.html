@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookingform</title>
+    <link rel="stylesheet" href="bookingform.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div>
+        <a href="logo"><img class="logo" src="blackbistro.jpeg" alt="" /></a>
+      </div>
+      <div class="navbarlist">
+        <a href="home.html" target="_self">HOME</a>
+        <a href="menu.html" target="_self">MENU</a>
+        <a href="about.html" target="_self">ABOUT </a>
+        <a href="contact.html" target="_self">CONTACT</a>
+      </div>
+    </nav>
+
+    <div class="rsvpbutton">
+      <h2>Reserve a Table</h2>
+      <form action="your_server_endpoint_here" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+        <label for="surname">Surname:</label>
+        <input type="text" id="Surname" name="Surname" required />
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required />
+        <input type="submit" value="Submit" />
+      </form>
+
+      <script>
+        function openReservationForm() {
+          const formContainer = document.getElementById("rsvpbutton");
+          formContainer.style.display = "block";
+        }
+      </script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+body{
+  background-image: url("food images/keith-about.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  
+}
+
+.logo{
+  border-radius: 10px;
+}
+
+.navbar{
+  text-align: center;
+  align-items: center;
+  color: black;
+}
+
+.navbarlist{
+  color: rgb(22, 22, 22);
+  font-size: 30px;
+  word-spacing: 25px;
+  
+}
+
+.navbarlist a:link,a:visited{
+  color: rgb(29, 28, 28);
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.aboutinfo{
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  word-spacing: 10px;
+
+  
+}
+
+.advertbutton{
+  transition-duration: 0.4s;
+  transition: 0,5s ease;
+  width: 330px;
+  height: 70px;
+  background-color: black;
+  border: none;
+  color: rgb(216, 174, 122);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.advertbutton:hover{
+  background-color: rgb(226, 165, 91);
+  color: rgb(102, 96, 96);
+  transform: scale(1.2);
+  cursor: pointer;
+}
+p{
+  font-size:20px;
+}
+

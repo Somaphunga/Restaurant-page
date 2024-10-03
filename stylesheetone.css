@@ -1,0 +1,87 @@
+body{
+  background-image: url("food images/sean-oulashin-BEACH\ IAMGE2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.logo{
+  border-radius: 10px;
+}
+
+.navbar{
+  text-align: center;
+  align-items: center;
+  color: black;
+}
+
+.navbarlist{
+  color: white;
+  font-size: 30px;
+  word-spacing: 25px;
+  
+}
+
+.navbarlist a:link,a:visited{
+  color: white;
+  text-decoration: none;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.bottonlefttext{
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+.centertext{
+  text-align: center;
+ font-size: 30px;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ margin-top: 150px;
+ color: white;
+  }
+
+ .bookingbutton{
+  width: 350px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: rgb(2, 2, 2);
+  color: rgb(102, 98, 98);
+  border: none;
+  transition:backgroun-color 0.5s;
+  border-radius: 5px;
+   }
+
+   
+
+   .bookingbutton:hover{
+    background-color: rgb(179, 173, 173);
+    cursor: pointer;
+   }
+
+   .advertbutton{
+    transition-duration: 0.4s;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 270px;
+    height: 70px;
+    background-color: black;
+    border: none;
+    color: rgb(216, 174, 122);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+  }
+  
+  .advertbutton:hover{
+    background-color: rgb(226, 165, 91);
+    color: rgb(102, 96, 96);
+    transform: scale(1.1);
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }

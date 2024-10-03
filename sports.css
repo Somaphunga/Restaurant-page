@@ -1,0 +1,95 @@
+.containter{
+  display: grid;
+  grid-template-columns: 16rem 1fr 16rem;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: "topsection topsection topsection"
+  "navbar news adverts"
+  "footer footer footer";
+  min-height: 100vh;
+}
+
+.topsection{
+  grid-area: topsection;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+}
+
+.navbar{
+  grid-area: navbar;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  text-decoration: none;
+  color: black;
+}
+
+.news{
+  grid-area: news;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.adverts{
+  grid-area: adverts;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+}
+
+.footer{
+  grid-area: footer;
+  padding: 10px;
+  background-color: rgb(105, 104, 160);
+}
+
+.readertowns{
+  text-align: center;
+  word-spacing: 7px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.papertype{
+  text-align: center;
+  word-spacing: 7px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1{
+  text-align: center;
+}
+
+.solgon{
+ text-align: left;
+ font-size: 17px;
+}
+
+.links{
+  text-decoration: none;
+  color: black;
+
+}
+
+.picture1{
+  width: 200px;
+  height: 100px;
+object-fit: cover;
+margin-top: 20px;
+
+}
+
+.navnews{
+ padding-top: 10px;
+ position: absolute;
+ left: auto;
+ margin-left: auto;
+}
+
+.storeadvert{
+  border-radius: 5px;
+  align-items: center;
+}
+
+.link1{
+  text-decoration: none;
+  color: black;
+}
